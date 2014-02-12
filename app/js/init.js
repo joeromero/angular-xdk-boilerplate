@@ -5,7 +5,7 @@ document.addEventListener('intel.xdk.device.ready', function() {
   intel.xdk.device.setAutoRotate(false);
 
   // Manage power
-  intel.xdk.device.managePower(true,false);
+  intel.xdk.device.managePower(true, false);
 
   // Hide splash screen
   intel.xdk.device.hideSplashScreen();
