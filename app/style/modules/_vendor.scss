@@ -1,0 +1,7 @@
+@mixin vendor($name, $argument...) {
+  @each $prefix in -webkit, -moz, -ms, -o {
+    #{$prefix}-#{$name}: #{$argument};
+  }
+
+  #{$name}: #{$argument};
+}

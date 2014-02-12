@@ -1,0 +1,27 @@
+{
+  "name": "angularjs-xdk-boilerplate",
+  "version": "0.0.0",
+  "authors": [
+    "jviotti <juanchiviotti@gmail.com>"
+  ],
+  "description": "AngularJS XDK Boilerplate",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.10",
+    "angular-route": "~1.2.10",
+    "angular-touch": "~1.2.10",
+    "underscore": "~1.5.2",
+    "ngprogress": "~1.0.4",
+    "angular-bindonce": "~0.3.0",
+    "angular-animate": "~1.2.10"
+  }
+}

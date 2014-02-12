@@ -1,0 +1,15 @@
+{
+  "name": "angularjs-xdk-boilerplate",
+  "version": "0.0.0",
+  "description": "AngularJS XDK Boilerplate",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "<juanchiviotti@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-ruby-sass": "~0.2.0",
+    "gulp": "~3.5.0"
+  }
+}

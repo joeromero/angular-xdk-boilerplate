@@ -1,0 +1,10 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Juan Cruz Viotti -- Developer & Designer -- @jviottidc
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, AngularJS, Underscore

@@ -1,0 +1,7 @@
+@mixin transition-vendor($property, $transition...) {
+  @each $prefix in -webkit, -moz, -ms, -o {
+    @include transition(#{$prefix}-#{$property} $transition);
+  }
+
+  @include transition($property $transition);
+}

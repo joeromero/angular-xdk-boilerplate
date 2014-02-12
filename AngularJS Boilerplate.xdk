@@ -1,0 +1,31 @@
+{
+  "project": {
+    "projectSettingsVersion": "1.0",
+    "creationData": {
+      "type": "Import",
+      "src": "/Users/jviotti/Projects/mobile-angular-boilerplate",
+      "projectGuid": "731fbfd9-3421-4d3c-8eff-0f3d975e0ffa",
+      "lastModifiedDate": 1392227383484,
+      "creationDate": 1392227383001
+    },
+    "projectFiles": {},
+    "projectDirectories": {},
+    "libraries": [
+      {
+        "name": "Cordova",
+        "version": "2.9.0",
+        "data": {
+          "default": true
+        }
+      },
+      {
+        "name": "intelXDK",
+        "version": "4.0.0",
+        "data": {
+          "default": true
+        }
+      }
+    ],
+    "services": []
+  }
+}

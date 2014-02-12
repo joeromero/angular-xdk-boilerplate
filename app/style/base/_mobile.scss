@@ -1,0 +1,25 @@
+*, *:before, *:after {
+  @include vendor(box-sizing, border-box);
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  -webkit-user-drag: none;
+  -ms-touch-action: none;
+}
+
+// Do not apply user-select on inputs as it makes them unwritable
+*:not(input) {
+  @include vendor(user-select, none);
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  @extend .nocallout;
+}
+
+a, button {
+  -webkit-appearance: none;
+}

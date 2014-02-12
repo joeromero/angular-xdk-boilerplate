@@ -1,0 +1,7 @@
+// Causes iOS to use hardware-acceleration (http://www.youtube.com/watch?v=IKl78ZgJzm4).
+@mixin hardware-acceleration() {
+  -webkit-backface-visibility: hidden;
+
+  // Force hardware acceleration
+  @include transform(translate3d(0,0,0));
+}
